@@ -19,6 +19,7 @@ Build a railway booking system like IRCTC
     npm install
 ```
 3. Configure Environment Variables(.env sample)
+   - Create your own .env file
 ```bash
     PORT=5000
     DB_HOST=localhost 
@@ -31,6 +32,7 @@ Build a railway booking system like IRCTC
 ```
 
 4. Set Up PostgreSQL Database
+- Start the Postgres Server.
 - Open PostgreSQL shell or use pgAdmin
 - Create a database: The DB name should match DB_NAME in your .env
 
